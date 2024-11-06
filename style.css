@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    background-color: black;
+    color: white;}
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      .maincontainer {
+        width: 50%;
+        margin: 150px auto;
+      }
+      .heading {
+        color: #ffffffe8;
+        font-family: Inter;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+.signupform{
+    display:flex;
+    flex-direction: column;
+    gap:18px;
+
+}
+.inputField{
+    color: #ffffffe8;
+    font-family: Inter;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 10px;
+  background-color: transparent;
+  
+}
+.inputField::placeholder{
+    color: white;
+}
+.finish{
+    color:black;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: #fafafafd;
+    width:200px;
+    height:50px;
+}
+
